@@ -1,0 +1,4 @@
+#Wed Aug 02 13:01:22 TRT 2023
+base.0=/home/atakan/dev/satta-mobil/satta_mobil/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,12 @@
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/satta_mobil
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/data/flutter_assets/assets/logo.png
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/atakan/dev/satta-mobil/satta_mobil/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
