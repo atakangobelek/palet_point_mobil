@@ -1,4 +1,6 @@
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:satta_mobil/service/get_service.dart';
 
 class LoginCard extends StatefulWidget {
   const LoginCard({Key? key}) : super(key: key);
@@ -59,7 +61,8 @@ class _LoginCardState extends State<LoginCard> {
             ),
             const SizedBox(height: 16),
             InkWell(
-              onTap: () {},
+              onTap: () async{
+              },
               child: const Text(
                 'Şifremi unuttum ',
                 style: TextStyle(

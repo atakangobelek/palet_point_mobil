@@ -1,0 +1,23 @@
+{
+    "status": 200,
+    "response_message": "Teklif listesi başarı ile oluşturuldu.",
+    "request_id": "233ccd820ec7f35e491f8c9fa1edc662",
+    "proposals": [
+        {
+            "proposal_id": 322,
+            "proposal_state": "replied",
+            "demand_list_name": "Favori Liste adı",
+            "proposal_valid_date": "2022-04-30T17:00:00.000+03:00",
+            "include_shipment_cost": true,
+            "payment_due_date": 30,
+            "delivery_date": "2022-05-02T15:16:56.459+03:00",
+            "update_counter": 1,
+            "product_proposals": [
+                {
+                    "product_name": "Zincir Kilidi",
+                    "amount": 15.0
+                }
+            ]
+        }
+    ]
+ }

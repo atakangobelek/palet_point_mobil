@@ -1,0 +1,49 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+ProductProposal _$ProductProposalFromJson(Map<String, dynamic> json) =>
+    ProductProposal(
+      productName: json['productName'] as String,
+      amount: json['amount'] as int,
+    );
+
+Map<String, dynamic> _$ProductProposalToJson(ProductProposal instance) =>
+    <String, dynamic>{
+      'productName': instance.productName,
+      'amount': instance.amount,
+    };
+
+ProposalModel _$ProposalModelFromJson(Map<String, dynamic> json) =>
+    ProposalModel(
+      proposalId: json['proposalId'] as int,
+      proposalState: json['proposalState'] as String,
+      demandListName: json['demandListName'] as String,
+      proposalValidDate: DateTime.parse(json['proposalValidDate'] as String),
+      deliveryDate: DateTime.parse(json['deliveryDate'] as String),
+      paymentDueDate: json['paymentDueDate'] as int,
+      includeShipmentCost: json['includeShipmentCost'] as bool,
+      updateCounter: json['updateCounter'] as int,
+      productProposal: (json['productProposal'] as List<dynamic>)
+          .map((e) => ProductProposal.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    )
+      ..status = json['status'] as int?
+      ..responseMessage = json['responseMessage'] as String?
+      ..requestId = json['requestId'] as String?;
+
+Map<String, dynamic> _$ProposalModelToJson(ProposalModel instance) =>
+    <String, dynamic>{
+      'status': instance.status,
+      'responseMessage': instance.responseMessage,
+      'requestId': instance.requestId,
+      'proposalId': instance.proposalId,
+      'proposalState': instance.proposalState,
+      'demandListName': instance.demandListName,
+      'proposalValidDate': instance.proposalValidDate.toIso8601String(),
+      'deliveryDate': instance.deliveryDate.toIso8601String(),
+      'paymentDueDate': instance.paymentDueDate,
+      'includeShipmentCost': instance.includeShipmentCost,
+      'updateCounter': instance.updateCounter,
+      'productProposal': instance.productProposal,
+    };

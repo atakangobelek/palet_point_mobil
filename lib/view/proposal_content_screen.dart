@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:satta_mobil/view/widget/proposal_content_body.dart';
 import 'package:satta_mobil/view/widget/proposal_content_header.dart';
 import 'package:satta_mobil/view/widget/proposal_content_message.dart';
 
-class ProposalContentScreen extends StatelessWidget {
+import '../view_model/get_proposal_model_view.dart';
+
+class ProposalContentScreen extends ConsumerWidget {
   const ProposalContentScreen({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Teklif No: 1533'),
@@ -19,6 +22,9 @@ class ProposalContentScreen extends StatelessWidget {
             child: SingleChildScrollView(
               child: Column(
                 children: [
+                  ElevatedButton(onPressed: () async{
+                    final data = await ref.watch(getProposalListProvider);
+                  }, child: Text('datayi cek')),
                   ProposalContentHeader(),
                   ListView.builder(
                     shrinkWrap:
